@@ -57,7 +57,7 @@ const SearchProvider = ({ children }: { children: ReactNode }) => {
       reference.languageId === languageId &&
       api?.languageId === languageId
     ) {
-      search.current.index(reference.content, api.content);
+      search.current.index(JSON.parse(JSON.stringify(reference.content)), api.content);
     }
   }, [languageId, reference, api]);
 

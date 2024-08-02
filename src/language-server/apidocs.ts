@@ -71,11 +71,13 @@ export const apiDocs = async (
         // For now, this omits a lot of modules that have stubs
         // derived from typeshed with no docs.
         // Note: "audio" is covered under micro:bit.
+        // bitsflow module added
         "gc",
         "log",
         "machine",
         "math",
         "microbit",
+        "bitsflow",
         "micropython",
         "music",
         "neopixel",
@@ -87,6 +89,8 @@ export const apiDocs = async (
         "struct",
         "sys",
         "time",
+        "color",
+        "palette"
       ],
     });
     return { content, languageId: client.locale };

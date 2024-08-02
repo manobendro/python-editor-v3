@@ -17,7 +17,7 @@ import HideSplitViewButton from "../common/SplitView/HideSplitViewButton";
 import { topBarHeight } from "../deployment/misc";
 import { DeviceContextProvider } from "../device/device-hooks";
 import { SimulatorDeviceConnection } from "../device/simulator";
-import { stage } from "../environment";
+// import { stage } from "../environment";
 import { useLogging } from "../logging/logging-hooks";
 import SimulatorActionBar from "./SimulatorActionBar";
 import SimulatorSplitView from "./SimulatorSplitView";
@@ -43,14 +43,14 @@ const Simulator = ({
   minWidth,
   simFocus,
 }: SimulatorProps) => {
-  const production =
-    "https://python-simulator.usermbit.org/v/0.1/simulator.html";
-  const staging =
-    "https://python-simulator.usermbit.org/staging/simulator.html";
-  const url = stage === "PRODUCTION" ? production : staging;
+  // const production =
+  //   "https://python-simulator.usermbit.org/v/0.1/simulator.html";
+  // const staging =
+  //   "https://python-simulator.usermbit.org/staging/simulator.html";
+  // const url = stage === "PRODUCTION" ? production : staging;
   // For testing with sim branches:
   //const branch = "upgrade-mpy";
-  //const url = `https://review-python-simulator.usermbit.org/${branch}/simulator.html`;
+  const url = 'https://4000-monospace-python-editor-v3-1715611503795.cluster-e3wv6awer5h7kvayyfoein2u4a.cloudworkstations.dev/simulator.html';
 
   const ref = useRef<HTMLIFrameElement>(null);
   const intl = useIntl();
@@ -113,7 +113,7 @@ const Simulator = ({
         </Flex>
         <VStack spacing={5} bg="gray.25" ref={simControlsRef}>
           <Box width="100%" pb={1} px={5} maxW="md" minW={minWidth}>
-            <AspectRatio ratio={191.27 / 155.77} width="100%">
+            <AspectRatio ratio={1/1} width="100%">
               <Box
                 ref={ref}
                 as="iframe"

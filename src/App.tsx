@@ -10,7 +10,6 @@ import "./App.css";
 import { DialogProvider } from "./common/use-dialogs";
 import VisualViewPortCSSVariables from "./common/VisualViewportCSSVariables";
 import { deployment, useDeployment } from "./deployment";
-import { MicrobitWebUSBConnection } from "./device/webusb";
 import { DeviceContextProvider } from "./device/device-hooks";
 import { MockDeviceConnection } from "./device/mock";
 import DocumentationProvider from "./documentation/documentation-hooks";
@@ -30,6 +29,7 @@ import SettingsProvider from "./settings/settings";
 import BeforeUnloadDirtyCheck from "./workbench/BeforeUnloadDirtyCheck";
 import { SelectionProvider } from "./workbench/use-selection";
 import Workbench from "./workbench/Workbench";
+import { BitsflowbitWebSerialConnection } from "./device/webserial";
 
 const isMockDeviceMode = () =>
   // We use a cookie set from the e2e tests. Avoids having separate test and live builds.
@@ -38,9 +38,13 @@ const isMockDeviceMode = () =>
   );
 
 const logging = deployment.logging;
+// const device = isMockDeviceMode()
+//   ? new MockDeviceConnection()
+//   : new MicrobitWebUSBConnection({ logging });
+
 const device = isMockDeviceMode()
   ? new MockDeviceConnection()
-  : new MicrobitWebUSBConnection({ logging });
+  : new BitsflowbitWebSerialConnection();
 
 const host = createHost(logging);
 const fs = new FileSystem(logging, host, fetchMicroPython);

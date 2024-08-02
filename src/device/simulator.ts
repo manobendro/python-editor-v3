@@ -269,8 +269,10 @@ export class SimulatorDeviceConnection
       progress: (percentage: number | undefined) => void;
     }
   ): Promise<void> {
+    let files = await dataSource.files();
+    console.log(files);
     this.postMessage("flash", {
-      filesystem: await dataSource.files(),
+      filesystem: files,
     });
     this.notifyResetComms();
     options.progress(undefined);

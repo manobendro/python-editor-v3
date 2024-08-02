@@ -5,10 +5,17 @@
  */
 import { fetchContent } from "../../common/sanity";
 import { Toolkit, ToolkitTopic, ToolkitTopicEntry } from "./model";
+import * as reference from "./data/reference.en.json";
+
+// export const fetchReferenceToolkit = async (
+//   languageId: string
+// ): Promise<Toolkit> => fetchContent(languageId, toolkitQuery, adaptContent);
 
 export const fetchReferenceToolkit = async (
   languageId: string
-): Promise<Toolkit> => fetchContent(languageId, toolkitQuery, adaptContent);
+): Promise<Toolkit> => new Promise((resolve, _)=>{
+  resolve(reference as Toolkit);
+});
 
 export const getTopicAndEntry = (
   toolkit: Toolkit,

@@ -183,6 +183,8 @@ const SideBarHeader = ({
           pr={4}
           transition="height .2s"
           position="relative"
+          marginTop="6px"
+          marginBottom="6px"
         >
           <Link
             display="block"

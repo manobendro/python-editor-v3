@@ -10,6 +10,8 @@
 
 # production
 /build
+# typeshed
+/typeshed
 
 # misc
 .DS_Store
@@ -30,3 +32,6 @@ __pycache__
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+
+temp

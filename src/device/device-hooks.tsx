@@ -39,6 +39,7 @@ export const useDevice = () => {
   if (!device) {
     throw new Error("Missing provider.");
   }
+  // console.log(device);
   return device;
 };
 

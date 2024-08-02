@@ -62,7 +62,8 @@ export const fetchContent = async <T>(
 };
 
 const fetchContentInternal = async (query: string): Promise<any> => {
-  const response = await fetch(queryUrl(query));
+  // no-cors is required to avoid CORS errors.
+  const response = await fetch(queryUrl(query), { mode: 'no-cors' });
   if (response.ok) {
     const { result } = await response.json();
     if (!result) {
