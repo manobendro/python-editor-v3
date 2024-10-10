@@ -96,17 +96,48 @@ export class BitsflowbitWebSerialConnection extends EventEmitter
     async flash(dataSource: FlashDataSource, options: { partial: boolean; progress: (percentage: number | undefined, partial: boolean) => void; }): Promise<void> {
         //if disconnectAfterFlash is true then desconnect or relese serial port access
         // TODO: flashing not impliment yet
-        this.log("----flash----");
+
+        if(!this.serialTransport?.connected){
+            return;
+        }
+
+        // this.log("----flash----");
         this.flashing = true;
 
         // flashing ....
-        console.log(dataSource);
-        console.log(options);
-        console.log(this.disconnectAfterFlash);
+        // console.log(dataSource);
+        // console.log(options);
+        // console.log(this.disconnectAfterFlash);
+        try {
+            // Wait for the promise to resolve
+            let fileRecord = await dataSource.files();
+            let totalFiles = Object.entries(fileRecord).length;
+            let wrote = 0;
+            // Iterate over the object using a for...in loop or Object.entries()
+            options.progress((wrote / totalFiles) * 100, true);
+            for (const [filename, fileData] of Object.entries(fileRecord)) {
+                // console.log(`File: ${filename}`);
+                // console.log(`Data:`, new TextDecoder().decode(fileData)); // Uint8Array data
+                await this.serialTransport?.fsWritefile(filename, fileData);
+                wrote++;
+                options.progress((wrote / totalFiles) * 100, true);
+            }
+        } catch (error) {
+            console.error("Error processing files:", error);
+        }
         // flashing done ....
 
         this.emit(EVENT_FLASH);
         this.flashing = false;
+
+        setTimeout(() => options.progress(undefined, true), 500);
+        //Sending CTRL-C, CTRL-D for softwer reset.
+        await this.serialTransport?.write("\r\x03"); //CTRL-C
+        await this.serialTransport?.write("\r\x04"); //CTRL-D
+        
+        if(this.disconnectAfterFlash){
+            await this.disconnect();
+        }
     }
     async disconnect(): Promise<void> {
         this.log("----disconnect----");

@@ -4,11 +4,11 @@
     "description": "About action"
   },
   "about-comic": {
-    "defaultMessage": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC micro:bit\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack.",
+    "defaultMessage": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your bitsflow\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack.",
     "description": "Alt text for comic in the about dialog"
   },
   "about-microbit": {
-    "defaultMessage": "Made with love by the <link>Micro:bit Educational Foundation and contributors</link>",
+    "defaultMessage": "Made with love by the <link>bitsflow Educational Foundation and contributors</link>",
     "description": "Text in about dialog"
   },
   "about-micropython": {
@@ -160,7 +160,7 @@
     "description": "Title for the connect cable dialog"
   },
   "connect-help-alt": {
-    "defaultMessage": "WebUSB connection dialog with BBC micro:bit entry labelled 1 and Connect button labelled 2",
+    "defaultMessage": "WebUSB connection dialog with bitsflow entry labelled 1 and Connect button labelled 2",
     "description": "Alt text for image in connect help dialog"
   },
   "connect-help-message": {
@@ -168,11 +168,11 @@
     "description": "Text in the connect help dialog"
   },
   "connect-help-one": {
-    "defaultMessage": "Choose your micro:bit",
+    "defaultMessage": "Choose your bitsflow",
     "description": "Legend text for the connect help dialog image"
   },
   "connect-help-title": {
-    "defaultMessage": "Select micro:bit",
+    "defaultMessage": "Select bitsflow",
     "description": "Title for the connect help dialog"
   },
   "connect-help-two": {
@@ -180,16 +180,16 @@
     "description": "Legend text for the connect help dialog image"
   },
   "connect-hover": {
-    "defaultMessage": "Connect to your micro:bit over WebUSB",
+    "defaultMessage": "Connect to your bitsflow over WebUSB",
     "description": "Connect button hover text"
   },
   "connect-microbit": {
-    "defaultMessage": "Connect to your micro:bit to see serial output here",
+    "defaultMessage": "Connect to your bitsflow to see serial output here",
     "description": "Text in serial area"
   },
   "connect-troubleshoot": {
-    "defaultMessage": "Troubleshoot problems with connecting to your micro:bit",
-    "description": "Text in no the micro:bit found and firmware update dialogs"
+    "defaultMessage": "Troubleshoot problems with connecting to your bitsflow",
+    "description": "Text in no the bitsflow found and firmware update dialogs"
   },
   "content-load-error": {
     "defaultMessage": "Something went wrong. Download your hex file for safe keeping, then refresh the page to reload.",
@@ -244,7 +244,7 @@
     "description": "Disconnect button text"
   },
   "disconnect-hover": {
-    "defaultMessage": "Disconnect from the micro:bit",
+    "defaultMessage": "Disconnect from the bitsflow",
     "description": "Disconnect button hover text"
   },
   "dont-show-again": {
@@ -308,11 +308,11 @@
     "description": "Warning text for new Python file name with whitespace"
   },
   "firmware-update-link": {
-    "defaultMessage": "You must <link>update your firmware</link> before you can connect to this micro:bit.",
+    "defaultMessage": "You must <link>update your firmware</link> before you can connect to this bitsflow.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-message": {
-    "defaultMessage": "Connecting to the micro:bit failed because the firmware on your micro:bit is too old.",
+    "defaultMessage": "Connecting to the bitsflow failed because the firmware on your bitsflow is too old.",
     "description": "Text in the firmware update dialog"
   },
   "firmware-update-title": {
@@ -324,7 +324,7 @@
     "description": "Text for flash button"
   },
   "flash-hover": {
-    "defaultMessage": "Flash the project directly to the micro:bit",
+    "defaultMessage": "Flash the project directly to the bitsflow",
     "description": "Hover text over flash button"
   },
   "flashing-code": {
@@ -332,7 +332,7 @@
     "description": "Progress dialog text for partial flashes (quick)"
   },
   "flashing-full-flash-detail": {
-    "defaultMessage": "Your code is being sent (flashed) to your micro:bit. This can take a while the first time but it will be quicker after that.",
+    "defaultMessage": "Your code is being sent (flashed) to your bitsflow. This can take a while the first time but it will be quicker after that.",
     "description": "Message shown after the title in the progress dialog for a full flash"
   },
   "flashing-micropython": {
@@ -400,7 +400,7 @@
     "description": "Load error message"
   },
   "load-error-makecode-link": {
-    "defaultMessage": "Please visit <link>https://makecode.microbit.org/</link> to use this hex file.",
+    "defaultMessage": "Make code currently not work with bitsflow, but we are working on it.",
     "description": "Load error message"
   },
   "load-error-mixed": {
@@ -424,19 +424,19 @@
     "description": "Shown on loading indicators"
   },
   "microbit-hearts-alt": {
-    "defaultMessage": "micro:bit board with the 5 by 5 LED grid showing a heart",
-    "description": "Alt text for micro:bit image in About dialog"
+    "defaultMessage": "bitsflow board with the 5 by 5 LED grid showing a heart",
+    "description": "Alt text for bitsflow image in About dialog"
   },
   "micropython-documentation": {
     "defaultMessage": "MicroPython documentation",
     "description": "MicroPython documentation menu option text"
   },
   "micropython-history": {
-    "defaultMessage": "Learn how MicroPython on the micro:bit came to be",
+    "defaultMessage": "Learn how MicroPython on the bitsflow came to be",
     "description": "Links to MicroPython history in the about dialog"
   },
   "micropython-source-code": {
-    "defaultMessage": "MicroPython <linkV1>source code for the micro:bit V1</linkV1> and <linkV2>micro:bit V2</linkV2>",
+    "defaultMessage": "MicroPython <linkV1>source code for the bitsflow V1</linkV1> and <linkV2>bitsflow V2</linkV2>",
     "description": "Links to the MicroPython source code in the about dialog"
   },
   "more-action": {
@@ -445,11 +445,11 @@
   },
   "more-connect-options": {
     "defaultMessage": "More connect options",
-    "description": "Aria label for the additional actions menu to the right of the Send to micro:bit button"
+    "description": "Aria label for the additional actions menu to the right of the Send to bitsflow button"
   },
   "more-ideas": {
     "defaultMessage": "<link>More ideas</link>",
-    "description": "Link to more ideas on the microbit.org website at the end of the ideas section"
+    "description": "Link to more ideas on the bitsflowlab.xyz/ideas website at the end of the ideas section"
   },
   "more-save-options": {
     "defaultMessage": "More save options",
@@ -488,28 +488,28 @@
     "description": "Next button text"
   },
   "not-found-checklist-one": {
-    "defaultMessage": "Is your <strong>micro:bit plugged in</strong>? Did you <link>follow these steps</link>?",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "defaultMessage": "Is your <strong>bitsflow plugged in</strong>? Did you <link>follow these steps</link>?",
+    "description": "Checklist text in the no bitsflow found dialog"
   },
   "not-found-checklist-two": {
-    "defaultMessage": "If you have a <strong>micro:bit V1</strong> you may need to <link>update the firmware</link>",
-    "description": "Checklist text in the no micro:bit found dialog"
+    "defaultMessage": "If you have a <strong>bitsflow V1</strong> you may need to <link>update the firmware</link>",
+    "description": "Checklist text in the no bitsflow found dialog"
   },
   "not-found-message": {
-    "defaultMessage": "You didn’t select a micro:bit, or there was a problem connecting to it.",
-    "description": "Text in the no micro:bit found dialog"
+    "defaultMessage": "You didn’t select a bitsflow, or there was a problem connecting to it.",
+    "description": "Text in the no bitsflow found dialog"
   },
   "not-found-save-message": {
     "defaultMessage": "Alternative method: choose Save then follow steps to transfer",
-    "description": "Save prompt in the no micro:bit found dialog"
+    "description": "Save prompt in the no bitsflow found dialog"
   },
   "not-found-title": {
-    "defaultMessage": "No micro:bit found",
-    "description": "Title for the micro:bit found dialog"
+    "defaultMessage": "No bitsflow found",
+    "description": "Title for the bitsflow found dialog"
   },
   "not-found-update-link": {
-    "defaultMessage": "You must <link>update your firmware before</link> you can connect to this micro:bit.",
-    "description": "Text in the no micro:bit found dialog"
+    "defaultMessage": "You must <link>update your firmware before</link> you can connect to this bitsflow.",
+    "description": "Text in the no bitsflow found dialog"
   },
   "open-action": {
     "defaultMessage": "Open",
@@ -564,7 +564,7 @@
     "description": "Title of dialog shown after the user saves the project as a hex file."
   },
   "post-save-transfer-hex": {
-    "defaultMessage": "To run this hex file on your micro:bit <link>follow these steps</link>.",
+    "defaultMessage": "To run this hex file on your bitsflow <link>follow these steps</link>.",
     "description": "Message in dialog shown after the user saves the project as a hex file."
   },
   "privacy-policy": {
@@ -668,11 +668,11 @@
     "description": "Aria label for searching documentation"
   },
   "send-action": {
-    "defaultMessage": "Send to micro:bit",
-    "description": "Send to micro:bit button text"
+    "defaultMessage": "Send to bitsflow",
+    "description": "Send to bitsflow button text"
   },
   "send-hover": {
-    "defaultMessage": "Connect via WebUSB then flash code onto micro:bit",
+    "defaultMessage": "Connect via WebUSB then flash code onto bitsflow",
     "description": "Send button hover text"
   },
   "serial-collapse": {
@@ -685,15 +685,15 @@
   },
   "serial-ctrl-d-action": {
     "defaultMessage": "Send Ctrl+D to reset",
-    "description": "Button to reset the micro:bit from the serial area"
+    "description": "Button to reset the bitsflow from the serial area"
   },
   "serial-expand": {
     "defaultMessage": "Show serial",
     "description": "Action label to expand the serial console/REPL area"
   },
   "serial-flashed": {
-    "defaultMessage": "micro:bit flashed",
-    "description": "Shown when your program is in sync with the micro:bit"
+    "defaultMessage": "bitsflow flashed",
+    "description": "Shown when your program is in sync with the bitsflow"
   },
   "serial-help-ctrl-c": {
     "defaultMessage": "Use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>C</kbd> to interrupt your program. Then you can type Python commands for MicroPython to run. It's a great way to experiment with something new.",
@@ -704,11 +704,11 @@
     "description": "Text from the serial hints and tips dialog.  kbd tag shows a keyboard key style."
   },
   "serial-help-intro": {
-    "defaultMessage": "The serial terminal shows errors and other output from the program running on your micro:bit. By default, it shows the most recent error from the program. Expand it to see all the output.",
+    "defaultMessage": "The serial terminal shows errors and other output from the program running on your bitsflow. By default, it shows the most recent error from the program. Expand it to see all the output.",
     "description": "Text from the serial hints and tips dialog"
   },
   "serial-help-print": {
-    "defaultMessage": "Your program can print messages using the <code>print</code> function. Try adding <code>print('micro:bit is awesome')</code> to your program.",
+    "defaultMessage": "Your program can print messages using the <code>print</code> function. Try adding <code>print('bitsflow is awesome')</code> to your program.",
     "description": "Text from the serial hints and tips dialog. code tag shows monospaced font."
   },
   "serial-help-title": {
@@ -724,12 +724,12 @@
     "description": "Aria label for serial area menu"
   },
   "serial-ready-to-flash": {
-    "defaultMessage": "micro:bit ready to flash",
-    "description": "Shown when your program is out of sync with the micro:bit"
+    "defaultMessage": "bitsflow ready to flash",
+    "description": "Shown when your program is out of sync with the bitsflow"
   },
   "serial-running": {
     "defaultMessage": "Running…",
-    "description": "Indicator text when the micro:bit is running a program"
+    "description": "Indicator text when the bitsflow is running a program"
   },
   "serial-terminal": {
     "defaultMessage": "Serial terminal",
@@ -929,7 +929,7 @@
   },
   "simulator-loud": {
     "defaultMessage": "Loud",
-    "description": "Simulator sound level high threshold marker hover text. This should match the translation of microbit.SoundEvent.LOUD in the api.en.json file but with differing case."
+    "description": "Simulator sound level high threshold marker hover text. This should match the translation of bitsflow.SoundEvent.LOUD in the api.en.json file but with differing case."
   },
   "simulator-mute": {
     "defaultMessage": "Mute",
@@ -949,15 +949,15 @@
   },
   "simulator-quiet": {
     "defaultMessage": "Quiet",
-    "description": "Simulator sound level low threshold marker hover text. This should match the translation of microbit.SoundEvent.QUIET in the api.en.json file but with differing case."
+    "description": "Simulator sound level low threshold marker hover text. This should match the translation of bitsflow.SoundEvent.QUIET in the api.en.json file but with differing case."
   },
   "simulator-radio": {
     "defaultMessage": "Radio",
     "description": "Radio simulator panel title"
   },
   "simulator-radio-code": {
-    "defaultMessage": "micro:bit sent:",
-    "description": "Visually hidden text for a radio message sent from the simulated micro:bit. Text of the message follows."
+    "defaultMessage": "bitsflow sent:",
+    "description": "Visually hidden text for a radio message sent from the simulated bitsflow. Text of the message follows."
   },
   "simulator-radio-group-notice": {
     "defaultMessage": "Radio group set to {groupNumber}",
@@ -985,7 +985,7 @@
   },
   "simulator-radio-user": {
     "defaultMessage": "You sent:",
-    "description": "Visually hidden text for a radio message sent from the user to the simulated micro:bit. Text of the message follows."
+    "description": "Visually hidden text for a radio message sent from the user to the simulated bitsflow. Text of the message follows."
   },
   "simulator-reference-link": {
     "defaultMessage": "Link to Reference section",
@@ -1021,7 +1021,7 @@
   },
   "simulator-touch-logo": {
     "defaultMessage": "Touch logo",
-    "description": "Name for the touch logo pin on the V2 micro:bit board. Used in the simulator."
+    "description": "Name for the touch logo pin on the V2 bitsflow board. Used in the simulator."
   },
   "simulator-unmute": {
     "defaultMessage": "Unmute",
@@ -1052,7 +1052,7 @@
     "description": "Explanation of how to allow editing for third-party modules."
   },
   "timeout-error-description": {
-    "defaultMessage": "Unable to connect to the micro:bit",
+    "defaultMessage": "Unable to connect to the bitsflow",
     "description": "Description for error messages relating to WebUSB timeout"
   },
   "timeout-error-title": {
@@ -1068,7 +1068,7 @@
     "description": "Aria label for the toolkit topic right arrow"
   },
   "transfer-hex-message-one": {
-    "defaultMessage": "Drag the hex file from your <strong>Downloads folder</strong> to the <strong>MICROBIT drive</strong>.",
+    "defaultMessage": "Drag the hex file from your <strong>Downloads folder</strong> to the <strong>BITSFLOW drive</strong>.",
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-message-two": {
@@ -1076,7 +1076,7 @@
     "description": "Text in the transfer hex dialog"
   },
   "transfer-hex-title": {
-    "defaultMessage": "Transfer saved hex file to micro:bit",
+    "defaultMessage": "Transfer saved hex file to bitsflow",
     "description": "Title for the transfer hex dialog"
   },
   "try-again-action": {
@@ -1108,7 +1108,7 @@
     "description": "Change made to file"
   },
   "visit-dot-org": {
-    "defaultMessage": "visit microbit.org (opens in a new tab)",
+    "defaultMessage": "visit bitsflowlab.xyz (opens in a new tab)",
     "description": "alt text for logo link to .org"
   },
   "webusb-error-clear-connect-description-1": {
@@ -1116,11 +1116,11 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-description-2": {
-    "defaultMessage": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the micro:bit before trying again.",
+    "defaultMessage": "Close any other tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the bitsflow before trying again.",
     "description": "Part of WebUSB error message"
   },
   "webusb-error-clear-connect-title": {
-    "defaultMessage": "Another page or browser tab is connected to this micro:bit",
+    "defaultMessage": "Another page or browser tab is connected to this bitsflow",
     "description": "Title of error for WebUsb connection"
   },
   "webusb-error-default-title": {
@@ -1132,7 +1132,7 @@
     "description": "Part of WebUSB error message"
   },
   "webusb-not-supported": {
-    "defaultMessage": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your micro:bit. We recommend Google Chrome or Microsoft Edge so you can connect directly to your micro:bit.",
+    "defaultMessage": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your bitsflow. We recommend Google Chrome or Microsoft Edge so you can connect directly to your bitsflow.",
     "description": "Explantion shown when user's browser doesn't support WebUSB"
   },
   "webusb-not-supported-title": {
@@ -1140,7 +1140,7 @@
     "description": "Title of dialog shown when user's browser doesn't support WebUSB"
   },
   "webusb-why-use": {
-    "defaultMessage": "With WebUSB you can program your micro:bit and connect to the serial console directly from the online editor.",
+    "defaultMessage": "With WebUSB you can program your bitsflow and connect to the serial console directly from the online editor.",
     "description": "Shown to encourage use of browser that supports WebUSB"
   },
   "welcome-message": {
@@ -1148,7 +1148,7 @@
     "description": "Text in the welcome dialogn"
   },
   "welcome-title": {
-    "defaultMessage": "Welcome to the micro:bit Python Editor",
+    "defaultMessage": "Welcome to the bitsflow Python Editor",
     "description": "Title for the welcome dialog"
   },
   "welcome-video-alt": {

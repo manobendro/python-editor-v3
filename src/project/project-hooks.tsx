@@ -53,6 +53,7 @@ export const useProjectActions = (): ProjectActions => {
       ),
     [
       fs,
+      fs.dirty,
       device,
       actionFeedback,
       dialogs,

@@ -50,7 +50,8 @@ const Simulator = ({
   // const url = stage === "PRODUCTION" ? production : staging;
   // For testing with sim branches:
   //const branch = "upgrade-mpy";
-  const url = 'https://4000-monospace-python-editor-v3-1715611503795.cluster-e3wv6awer5h7kvayyfoein2u4a.cloudworkstations.dev/simulator.html';
+  // const url = 'https://4000-monospace-python-editor-v3-1715611503795.cluster-e3wv6awer5h7kvayyfoein2u4a.cloudworkstations.dev/simulator.html';
+  const url = 'https://simulator.bitsflowlab.xyz/simulator.html';
 
   const ref = useRef<HTMLIFrameElement>(null);
   const intl = useIntl();

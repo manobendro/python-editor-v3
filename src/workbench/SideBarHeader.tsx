@@ -188,7 +188,7 @@ const SideBarHeader = ({
         >
           <Link
             display="block"
-            href="https://microbit.org/code/"
+            href="https://bitsflowlab.xyz"
             target="_blank"
             rel="noopener noreferrer"
             aria-label={intl.formatMessage({ id: "visit-dot-org" })}

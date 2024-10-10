@@ -8,7 +8,7 @@
   "about-comic": [
     {
       "type": 0,
-      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC micro:bit\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
+      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your bitsflow\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
     }
   ],
   "about-microbit": [
@@ -20,7 +20,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Micro:bit Educational Foundation and contributors"
+          "value": "bitsflow Educational Foundation and contributors"
         }
       ],
       "type": 8,
@@ -356,7 +356,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "WebUSB connection dialog with BBC micro:bit entry labelled 1 and Connect button labelled 2"
+      "value": "WebUSB connection dialog with BBC bitsflow entry labelled 1 and Connect button labelled 2"
     }
   ],
   "connect-help-message": [
@@ -368,13 +368,13 @@
   "connect-help-one": [
     {
       "type": 0,
-      "value": "Choose your micro:bit"
+      "value": "Choose your bitsflow"
     }
   ],
   "connect-help-title": [
     {
       "type": 0,
-      "value": "Select micro:bit"
+      "value": "Select bitsflow"
     }
   ],
   "connect-help-two": [
@@ -386,19 +386,19 @@
   "connect-hover": [
     {
       "type": 0,
-      "value": "Connect to your micro:bit over WebUSB"
+      "value": "Connect to your bitsflow over WebUSB"
     }
   ],
   "connect-microbit": [
     {
       "type": 0,
-      "value": "Connect to your micro:bit to see serial output here"
+      "value": "Connect to your bitsflow to see serial output here"
     }
   ],
   "connect-troubleshoot": [
     {
       "type": 0,
-      "value": "Troubleshoot problems with connecting to your micro:bit"
+      "value": "Troubleshoot problems with connecting to your bitsflow"
     }
   ],
   "content-load-error": [
@@ -494,7 +494,7 @@
   "disconnect-hover": [
     {
       "type": 0,
-      "value": "Disconnect from the micro:bit"
+      "value": "Disconnect from the bitsflow"
     }
   ],
   "dont-show-again": [
@@ -616,13 +616,13 @@
     },
     {
       "type": 0,
-      "value": " before you can connect to this micro:bit."
+      "value": " before you can connect to this bitsflow."
     }
   ],
   "firmware-update-message": [
     {
       "type": 0,
-      "value": "Connecting to the micro:bit failed because the firmware on your micro:bit is too old."
+      "value": "Connecting to the bitsflow failed because the firmware on your bitsflow is too old."
     }
   ],
   "firmware-update-title": [
@@ -640,7 +640,7 @@
   "flash-hover": [
     {
       "type": 0,
-      "value": "Flash the project directly to the micro:bit"
+      "value": "Flash the project directly to the bitsflow"
     }
   ],
   "flashing-code": [
@@ -652,7 +652,7 @@
   "flashing-full-flash-detail": [
     {
       "type": 0,
-      "value": "Your code is being sent (flashed) to your micro:bit. This can take a while the first time but it will be quicker after that."
+      "value": "Your code is being sent (flashed) to your bitsflow. This can take a while the first time but it will be quicker after that."
     }
   ],
   "flashing-micropython": [
@@ -770,7 +770,7 @@
       "children": [
         {
           "type": 0,
-          "value": "https://makecode.microbit.org/"
+          "value": "https://bitsflowlab.xyz/"
         }
       ],
       "type": 8,
@@ -842,7 +842,7 @@
   "microbit-hearts-alt": [
     {
       "type": 0,
-      "value": "micro:bit board with the 5 by 5 LED grid showing a heart"
+      "value": "bitsflow board with the 5 by 5 LED grid showing a heart"
     }
   ],
   "micropython-documentation": [
@@ -854,7 +854,7 @@
   "micropython-history": [
     {
       "type": 0,
-      "value": "Learn how MicroPython on the micro:bit came to be"
+      "value": "Learn how MicroPython on the bitsflow came to be"
     }
   ],
   "micropython-source-code": [
@@ -866,7 +866,7 @@
       "children": [
         {
           "type": 0,
-          "value": "source code for the micro:bit V1"
+          "value": "source code for the bitsflow V1"
         }
       ],
       "type": 8,
@@ -880,7 +880,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V2"
+          "value": "bitsflow V2"
         }
       ],
       "type": 8,
@@ -1068,7 +1068,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit plugged in"
+          "value": "bitsflow plugged in"
         }
       ],
       "type": 8,
@@ -1102,7 +1102,7 @@
       "children": [
         {
           "type": 0,
-          "value": "micro:bit V1"
+          "value": "bitsflow V1"
         }
       ],
       "type": 8,
@@ -1126,7 +1126,7 @@
   "not-found-message": [
     {
       "type": 0,
-      "value": "You didn’t select a micro:bit, or there was a problem connecting to it."
+      "value": "You didn’t select a bitsflow, or there was a problem connecting to it."
     }
   ],
   "not-found-save-message": [
@@ -1138,7 +1138,7 @@
   "not-found-title": [
     {
       "type": 0,
-      "value": "No micro:bit found"
+      "value": "No bitsflow found"
     }
   ],
   "not-found-update-link": [
@@ -1158,7 +1158,7 @@
     },
     {
       "type": 0,
-      "value": " you can connect to this micro:bit."
+      "value": " you can connect to this bitsflow."
     }
   ],
   "open-action": [
@@ -1182,7 +1182,7 @@
   "open-hover": [
     {
       "type": 0,
-      "value": "Open a hex or Python file or add other files"
+      "value": "Open a Python file or add other files"
     }
   ],
   "options": [
@@ -1300,7 +1300,7 @@
   "post-save-transfer-hex": [
     {
       "type": 0,
-      "value": "To run this hex file on your micro:bit "
+      "value": "To run this hex file on your bitsflow "
     },
     {
       "children": [
@@ -1508,13 +1508,13 @@
   "send-action": [
     {
       "type": 0,
-      "value": "Send to micro:bit"
+      "value": "Send to bitsflow"
     }
   ],
   "send-hover": [
     {
       "type": 0,
-      "value": "Connect via WebUSB then flash code onto micro:bit"
+      "value": "Connect via WebUSB then flash code onto bitsflow"
     }
   ],
   "serial-collapse": [
@@ -1544,7 +1544,7 @@
   "serial-flashed": [
     {
       "type": 0,
-      "value": "micro:bit flashed"
+      "value": "bitsflow flashed"
     }
   ],
   "serial-help-ctrl-c": [
@@ -1618,7 +1618,7 @@
   "serial-help-intro": [
     {
       "type": 0,
-      "value": "The serial terminal shows errors and other output from the program running on your micro:bit. By default, it shows the most recent error from the program. Expand it to see all the output."
+      "value": "The serial terminal shows errors and other output from the program running on your bitsflow. By default, it shows the most recent error from the program. Expand it to see all the output."
     }
   ],
   "serial-help-print": [
@@ -1644,7 +1644,7 @@
       "children": [
         {
           "type": 0,
-          "value": "print('micro:bit is awesome')"
+          "value": "print('bitsflow is awesome')"
         }
       ],
       "type": 8,
@@ -1676,7 +1676,7 @@
   "serial-ready-to-flash": [
     {
       "type": 0,
-      "value": "micro:bit ready to flash"
+      "value": "bitsflow ready to flash"
     }
   ],
   "serial-running": [
@@ -2098,7 +2098,7 @@
   "simulator-radio-code": [
     {
       "type": 0,
-      "value": "micro:bit sent:"
+      "value": "bitsflow sent:"
     }
   ],
   "simulator-radio-group-notice": [
@@ -2260,7 +2260,7 @@
   "timeout-error-description": [
     {
       "type": 0,
-      "value": "Unable to connect to the micro:bit"
+      "value": "Unable to connect to the bitsflow"
     }
   ],
   "timeout-error-title": [
@@ -2312,7 +2312,7 @@
       "children": [
         {
           "type": 0,
-          "value": "MICROBIT drive"
+          "value": "BITSFLOW drive"
         }
       ],
       "type": 8,
@@ -2346,7 +2346,7 @@
   "transfer-hex-title": [
     {
       "type": 0,
-      "value": "Transfer saved hex file to micro:bit"
+      "value": "Transfer saved hex file to bitsflow"
     }
   ],
   "try-again-action": [
@@ -2418,7 +2418,7 @@
   "visit-dot-org": [
     {
       "type": 0,
-      "value": "visit microbit.org (opens in a new tab)"
+      "value": "visit bitsflowlab.xyz (opens in a new tab)"
     }
   ],
   "webusb-error-clear-connect-description-1": [
@@ -2430,13 +2430,13 @@
   "webusb-error-clear-connect-description-2": [
     {
       "type": 0,
-      "value": "Close any other pages or tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the micro:bit before trying again."
+      "value": "Close any other pages or tabs that may be using WebUSB (e.g. MakeCode, Python Editor), or unplug and replug the bitsflow before trying again."
     }
   ],
   "webusb-error-clear-connect-title": [
     {
       "type": 0,
-      "value": "Another page or browser tab is connected to this micro:bit"
+      "value": "Another page or browser tab is connected to this bitsflow"
     }
   ],
   "webusb-error-default-title": [
@@ -2506,7 +2506,7 @@
   "webusb-not-supported": [
     {
       "type": 0,
-      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your micro:bit. We recommend Google Chrome or Microsoft Edge so you can connect directly to your micro:bit."
+      "value": "Unfortunately, WebUSB is not supported in this browser and your program will be saved to your computer instead. Follow the steps on the next screen to transfer it to your bitsflow. We recommend Google Chrome or Microsoft Edge so you can connect directly to your bitsflow."
     }
   ],
   "webusb-not-supported-title": [
@@ -2518,7 +2518,7 @@
   "webusb-why-use": [
     {
       "type": 0,
-      "value": "With WebUSB you can program your micro:bit and connect to the serial console directly from the online editor."
+      "value": "With WebUSB you can program your bitsflow and connect to the serial console directly from the online editor."
     }
   ],
   "welcome-message": [
@@ -2530,7 +2530,7 @@
   "welcome-title": [
     {
       "type": 0,
-      "value": "Welcome to the micro:bit Python Editor"
+      "value": "Welcome to the bitsflow Python Editor"
     }
   ],
   "welcome-video-alt": [

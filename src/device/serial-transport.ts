@@ -107,7 +107,7 @@ export default class SerialTransport {
         }
     }
 
-    async readUntil(ends: string, timeout = 1000): Promise<string> {
+    async readUntil(ends: string, timeout = 5000): Promise<string> {
         let readData = "";
         let timeoutHandle: NodeJS.Timeout | null = null;
 
@@ -154,7 +154,7 @@ export default class SerialTransport {
         return true;
     }
 
-    async exec(command: string, timeout = 1000): Promise<string> {
+    async exec(command: string, timeout = 5000): Promise<string> {
         const encodedCommand = this.te.encode(command);
         for (let i = 0; i < encodedCommand.length; i += 256) {
             await this.writer!.write(encodedCommand.subarray(i, Math.min(i + 256, encodedCommand.length)));
